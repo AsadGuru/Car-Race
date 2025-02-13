@@ -641,7 +641,7 @@
   
         for (let line of lines) line.curve = line.y = 0;
   
-        text.innerText = "INSERT COIN";
+        text.innerText = "Press C to start";
         text.classList.add("blink");
   
         road.style.opacity = 0.4;
